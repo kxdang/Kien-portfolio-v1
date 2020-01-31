@@ -1,6 +1,6 @@
 import React from "react";
-import logo40 from "./../images/logo40.jpg";
-import logo24 from "./../images/logo24.jpg";
+import logo40 from "./../images/kienavatar.png";
+import logo24 from "./../images/kienavatar.png";
 
 const Avatar = props => (
   <div className={`c-avatar ${props.modifierClasses}`}>

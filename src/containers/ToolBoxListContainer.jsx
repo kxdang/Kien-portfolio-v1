@@ -26,32 +26,25 @@ class ToolBoxListContainer extends React.Component {
           id: 3,
           label: "HTML5 / CSS",
           description: `I learned HTML & CSS through <a href="https://www.freecodecamp.org/certification/kxdang/responsive-web-design" target="_blank">freeCodeCamp</a>, w3schools and Treehouse back in 2017.`,
-          comment: `I had initial interest in building websites during school.`
+          comment: `I had initial interest in building websites during school. I recently enrolled in a CSS course to improve my CSS skills.`
         },
         {
           id: 21,
           label: "SCSS/SASS",
-          description: `I learned SCSS and SASS through a Udemy course by Jonas Schmedtmann. It covered advanced CSS knowledge which includes Flexbox, Grids and animations. `,
-          comment: `SASS helps me organize my CSS code`
+          description: `I learned SCSS and SASS through a Udemy course by Jonas Schmedtmann. It covered advanced CSS knowledge which includes Flexbox, Grids and animations.`
         },
         {
           id: 5,
           label: "BEM",
-          description: `BEM (Block, Element, Modifier) is a component-based 
+          description: `I follow the BEM (Block, Element, Modifier) approach 
             <a href="https://en.bem.info/" target="_blank">approach</a> to web development.`
         },
-        {
-          id: 6,
-          label: "Git",
-          description: `Git is a <a href="https://en.wikipedia.org/wiki/Git" target="_blank">version control</a> system for tracking changes 
-            in computer files and coordinating work on those files among multiple people.`,
-          comment: `It saved my life, a couple of times ;)`
-        },
+
         {
           id: 19,
           label: "Github",
           description: `A web-based Git version control repository hosting service.`,
-          comment: `That's my <a href="https://github.com/greglobinski" target="_blank">Github</a>`
+          comment: `My <a href="https://github.com/kxdang" target="_blank">Github</a>`
         },
         {
           id: 7,

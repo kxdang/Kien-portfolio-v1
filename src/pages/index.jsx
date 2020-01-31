@@ -7,6 +7,7 @@ const Index = props => {
   return (
     <div className="c-content-box">
       <Avatar modifierClasses="c-avatar--as-logo" />
+
       <h2>Hello World, My name is Kien</h2>
       <HeadlineWithFocus
         modifierClassNames={`
