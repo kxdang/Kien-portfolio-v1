@@ -34,89 +34,58 @@ class ToolBoxListContainer extends React.Component {
           description: `I learned SCSS and SASS through a Udemy course by Jonas Schmedtmann. It covered advanced CSS knowledge which includes Flexbox, Grids and animations.`
         },
         {
-          id: 5,
-          label: "BEM",
-          description: `I follow the BEM (Block, Element, Modifier) approach 
-            <a href="https://en.bem.info/" target="_blank">approach</a> to web development.`
-        },
-
-        {
           id: 19,
           label: "Github",
-          description: `A web-based Git version control repository hosting service.`,
+          description: `I host all my projects on Github to track my progress in programming.`,
           comment: `My <a href="https://github.com/kxdang" target="_blank">Github</a>`
         },
         {
           id: 7,
           label: "React",
-          description: `A JavaScript <a href="https://reactjs.org/" target="_blank">library</a> for building user interfaces. 
-            React makes it painless to create interactive UIs. Build encapsulated components 
-            that manage their own state and then compose them to make complex UIs.`,
-          comment: `I've been in love since using it for the first time.`
+          description: `I've been learning about this library to build web applications.`,
+          comment: `My journey is still on-going!`
         },
         {
           id: 9,
           label: "Gatsby",
-          description: `A static PWA (Progressive Web App) 
-            <a href="https://www.gatsbyjs.org/" target="_blank">generator</a>. Gatsby lets 
-            you build blazing-fast sites with your data, whatever the source.`,
-          comment: `The website you are looking at now is built with Gatsby.`
+          description: `I built this website and my personal blog using Gatsby which is a static PWA (Progressive Web App) generator. `,
+          comment: `I love the simplicity of Gatsby how fast the websites are.`
         },
         {
           id: 20,
           label: "GraphQL",
-          description: `It's a query language for APIs. <a href="http://graphql.org/" target="_blank">GraphQL</a> 
-          gives clients the power to ask for exactly what they need and nothing more.`,
-          comment: `The <a href="https://www.graph.cool/" target="_blank">Graphcool</a> framework and its
-          <b>Cloud</b> service manages the GraphQL backend for my <a href="https://github.com/greglobinski/lazywill-demo" target="_blank">app.</a>`
-        },
-        {
-          id: 10,
-          label: "Banana",
-          description: `A TypeScript-based open-source front-end web application 
-            <a href="https://angular.io/" target="_blank">platform</a>.`
-        },
-        {
-          id: 11,
-          label: "ArangoDB / AQL",
-          description: `A multi-model mostly-memory <a href="https://www.arangodb.com/" target="_blank">database</a>
-            with a flexible data model for documents and graphs. It is designed as 
-            a “general purpose database”, offering all the features you typically need for modern web applications.`
+          description: `It's a query language for APIs <a href="http://graphql.org/" target="_blank">GraphQL</a>.`,
+          comment: `I love learning the latest tech. My <a href="http://graphql.org/" target="_blank">blog</a> currently uses GraphQL to parse its data from the markdown files`
         },
         {
           id: 12,
-          label: "npm",
-          description: `A package <a href="https://www.npmjs.com/" target="_blank">manager</a> for 
-            the JavaScript programming language.`
+          label: "Node.js",
+          description: `A runtime environment for executing JavaScript code outside of the browser used to build back-end services (APIs) which powers the client applications like Web App and Mobile Apps`,
+          comment: `I completed and my Nodejs and Express bootcamp from Andrew Mead and a MERN development course from Max`
         },
         {
-          id: 13,
-          label: "Webpack",
-          description: `An open-source JavaScript module <a href="https://webpack.js.org/" target="_blank">bundler</a>.
-            Webpack takes modules with dependencies and generates static assets representing those modules.`
+          id: 11,
+          label: "MongoDB",
+          description: `A NoSQL database program that I've been using in my projects`,
+          comment: `I completed a Node.js and Express bootcamp from Andrew Mead and a MERN development course from Academind`
         },
         {
-          id: 14,
-          label: "jQuery",
-          description: `A cross-platform JavaScript <a href="https://jquery.com/" target="_blank">library</a> designed to simplify 
-            the client-side scripting of HTML.`,
-          comment: `I used it much and often ... in the past.`
+          id: 5,
+          label: "Express",
+          description: `A web application framework for Node.js. It helps organize web applications into an MVC architecture on the server side.`,
+          comment: `I learned this along with MongoDB from Andrew Mead and Academind on Udemy.`
         },
         {
           id: 15,
           label: "Wordpress",
-          description: `The largest self-hosted <a href="https://wordpress.org/" target="_blank">blogging tool</a>
-            in the world, used on millions of sites.`,
-          comment: `I've built some websites using it. Like  
-            <a href="http://polishlanguage.dlachetnych.pl/" target="_blank">this</a> one or 
-            <a href="http://lab.gregloby.com/" target="_blank">that</a> one.`
+          description: `I initially hosted my blog using Wordpress, however, my curiousity lead me to hosting on a static site generator to reduce cost.`,
+          comment: `I still remember how to use Wordpress!`
         },
         {
           id: 17,
           label: "PHP",
-          description: `A server-side scripting <a href="http://php.net/" target="_blank">language</a> designed primarily 
-            for web development but also used as a general-purpose programming language.`,
-          comment: `Currently, my only contact with PHP is when theming WP.`
+          description: `I am still learning this language`,
+          comment: `Currently learning PHP to make a Spotify clone!`
         }
       ],
       activatedItem: null,
