@@ -30,7 +30,7 @@ export default props => {
         <li className="c-contact-list__item">
           <FaGithub />
           <a
-            href="https://github.com/greglobinski"
+            href="https://github.com/kxdang"
             target="_blank"
             rel="noopener noreferrer"
           >

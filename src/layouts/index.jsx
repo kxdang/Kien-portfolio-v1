@@ -21,7 +21,7 @@ class DefaultLayout extends React.Component {
           meta={[
             {
               name: "description",
-              content: `I build web interfaces using: JavaScrip, ES2015, Babel, HTML5, CSS, CSS3, BEM, React, Gatsby, Webpack ...`
+              content: `I build web applications:  HTML5, CSS, CSS3, JavaScript, BEM, React, Gatsby, Webpack ...`
             }
           ]}
         />

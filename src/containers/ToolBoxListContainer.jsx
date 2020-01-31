@@ -19,51 +19,20 @@ class ToolBoxListContainer extends React.Component {
         {
           id: 1,
           label: "JavaScript",
-          description: `Often abbreviated as <a href="https://en.wikipedia.org/wiki/JavaScript" target="_blank">JS</a>, 
-            it is a high-level, dynamic, weakly typed,
-            prototype-based, multi-paradigm, and interpreted programming language.`,
-          comment: `That's the only programing language I use on a daily basis. 
-            <b>And I love it!</b>`
-        },
-        {
-          id: 2,
-          label: "ES2015",
-          description: `It's a pseudonym for the latest version of the 
-            <a href="https://en.wikipedia.org/wiki/ECMAScript#6th_Edition_-_ECMAScript_2015" target="_blank">
-            ECMAScript</a> aka JavaScript.`,
-          comment: `ES6 makes my coding easier.`
-        },
-        {
-          id: 18,
-          label: "Babel",
-          description: `A <a href="https://babeljs.io/" target="_blank">transpiler</a> for JavaScript 
-            best known for its ability to turn ES2015 into code that runs in browsers 
-            which does not support it directly. It lets us use next generation 
-            JavaScript, today.`,
-          comment: `That's a <b>must-have</b> tool.`
+          description: `I learned JavaScript through MDN, freeCodeCamp and from <a href="https://www.udemy.com/certificate/UC-RIO305CO/" target="_blank">Andrew Mead</a>`,
+          comment: `I found multiple resources to learn the fundamentals and ES6+`
         },
         {
           id: 3,
-          label: "HTML5",
-          description: `A markup language used for structuring and presenting content on the 
-            World Wide Web. It is the fifth and current major version of the 
-            <a href="https://en.wikipedia.org/wiki/HTML5" target="_blank">HTML</a> standard.`,
-          comment: `There is no web without HTML.`
-        },
-        {
-          id: 4,
-          label: "CSS / CSS3",
-          description: `Cascading Style Sheets - a style sheet 
-            <a href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets" target="_blank">language</a> 
-            used for describing the presentation of a document written in HTML.`,
-          comment: `CSS makes the web beautiful.`
+          label: "HTML5 / CSS",
+          description: `I learned HTML & CSS through <a href="https://www.freecodecamp.org/certification/kxdang/responsive-web-design" target="_blank">freeCodeCamp</a>, w3schools and Treehouse back in 2017.`,
+          comment: `I had initial interest in building websites during school.`
         },
         {
           id: 21,
           label: "SCSS/SASS",
-          description: `A scripting <a href="http://sass-lang.com/" target="_blank">language</a> 
-          that is interpreted or compiled into Cascading Style Sheets (CSS).`,
-          comment: `SASS helps me write and manage CSS code faster.`
+          description: `I learned SCSS and SASS through a Udemy course by Jonas Schmedtmann. It covered advanced CSS knowledge which includes Flexbox, Grids and animations. `,
+          comment: `SASS helps me organize my CSS code`
         },
         {
           id: 5,

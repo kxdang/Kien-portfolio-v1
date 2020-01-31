@@ -1,9 +1,9 @@
-.c-contact-list {
+.c-project-list {
   list-style: none;
   padding: 0;
 }
 
-.c-contact-list__item {
+.c-project-list__item {
   margin: 0 0 0.6em 0;
   cursor: pointer;
 
@@ -17,6 +17,5 @@
     color: $light-gray-color;
     font-size: 1.2em;
     margin: 0 0.8em 0 0;
-    text-decoration: none;
   }
 }

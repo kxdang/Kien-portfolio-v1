@@ -14,19 +14,13 @@ const Index = props => {
           c-headline-focus--super-big 
         `}
       >
-        I'm a front-end web developer
+        I'm a front-end web developer.
       </HeadlineWithFocus>
-      <p>
-        lIce cream jelly-o bear claw. Ice cream cake chocolate cake icing
-        tiramisu cake bear claw topping sugar plum. Chocolate cake chocolate
-        cake jelly beans brownie jelly beans cookie caramels. Apple pie
-        gingerbread caramels tootsie roll chocolate oat cake. Bear claw
-        chocolate cake jelly. Soufflé cake dessert. Chocolate bar cotton candy
-        oat cake candy canes. Dragée gummi bears brownie sweet gingerbread
-        muffin apple pie. Biscuit muffin soufflé chupa chups toffee. Pudding pie
-        cupcake marshmallow. Powder gummi bears macaroon cheesecake. Candy canes
-        liquorice sesame snaps pastry marshmallow jelly beans bear claw.
-        Cheesecake cheesecake cake fruitcake macaroon.
+      <p className="__intro">
+        I'm a life-long learner with a passion for solving problems via code. I
+        have a technical background in biochemistry and decided to make a career
+        change. I created a blog to document my journey and progress, feel free
+        to take a peak!
       </p>
     </div>
   );

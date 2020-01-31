@@ -1,11 +1,11 @@
 import React from "react";
 import HeadlineWithFocus from "../components/HeadlineWithFocus";
+import { FaExternalLink, FaGithub } from "react-icons/lib/fa/";
 import Helmet from "react-helmet";
 
 export default () => (
   <div className="c-content-box">
     <Helmet title="Kien's Projects" />
-
     <HeadlineWithFocus>
       Projects
       {/*<span>What's that?</span>*/}
