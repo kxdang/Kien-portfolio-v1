@@ -1,11 +1,15 @@
-.c-project-list {
-  list-style: none;
-  padding: 0;
-}
+//   svg {
+//     color: $light-gray-color;
+//     font-size: 1.2em;
+//     margin: 0 0.8em 0 0;
+//   }
+// }
 
-.c-project-list__item {
-  margin: 0 0 0.6em 0;
-  cursor: pointer;
+a {
+  &.icon {
+    text-decoration: none;
+    border-bottom: none;
+  }
 
   &:hover {
     svg {
@@ -18,4 +22,21 @@
     font-size: 1.2em;
     margin: 0 0.8em 0 0;
   }
+}
+
+table {
+  font-family: Exo, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  font-weight: 100px;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  // background-color: #bbe1fa;
 }

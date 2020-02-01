@@ -40,20 +40,3 @@ p {
     text-align: left;
   }
 }
-
-table {
-  font-family: Exo, sans-serif;
-  border-collapse: collapse;
-  width: 100%;
-}
-
-td,
-th {
-  font-weight: 100px;
-  text-align: left;
-  padding: 8px;
-}
-
-tr:nth-child(even) {
-  background-color: #bbe1fa;
-}
