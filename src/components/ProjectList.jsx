@@ -27,7 +27,7 @@ const ProjectList = () => (
       <td>
         <a href="https://dang-sweater-weather.herokuapp.com/" target="_blank">
           <FaExternalLinkSquareAlt />
-          Weather Application
+          Weather App
         </a>
       </td>
       <td>JavaScript · Node.js · Mapbox API · Darksky API · Heroku</td>

@@ -1,7 +1,7 @@
 import React from "react";
 import HeadlineWithFocus from "../components/HeadlineWithFocus";
 import Obfuscate from "react-obfuscate";
-import { FaEnvelopeOpen, FaLinkedin, FaGithub } from "react-icons/fa";
+import { FaEnvelopeOpen, FaLinkedin, FaGithub, FaDev } from "react-icons/fa";
 import Helmet from "react-helmet";
 
 export default props => {
@@ -35,6 +35,16 @@ export default props => {
             rel="noopener noreferrer"
           >
             kxdang
+          </a>
+        </li>
+        <li className="c-contact-list__item">
+          <FaDev />
+          <a
+            href="https://dev.to/kdang"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            kdang
           </a>
         </li>
       </ul>
