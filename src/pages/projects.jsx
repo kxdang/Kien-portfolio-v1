@@ -11,7 +11,7 @@ export default () => (
       Projects
       {/*<span>What's that?</span>*/}
     </HeadlineWithFocus>
-    <p>More coming in Febuary!</p>
+    <p>More coming in Febuary 2020!</p>
     <ProjectList />
   </div>
 );
