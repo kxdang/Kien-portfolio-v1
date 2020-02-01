@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "gatsby-link";
 import Obfuscate from "react-obfuscate";
-import { FaPaperPlaneO, FaWrench } from "react-icons/lib/fa";
+import { FaPaperPlaneO, FaWrench } from "react-icons/fa";
 
 const ForHomePageContent = <div className="c-remark-screen__message"></div>;
 

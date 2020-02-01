@@ -1,6 +1,6 @@
 import React from "react";
-import { FaGithub } from "react-icons/lib/fa/";
-import { FaExternalLinkSquareAlt } from "react-icons/lib/fa/";
+import { FaGithub } from "react-icons/fa";
+import { FaExternalLinkSquareAlt } from "react-icons/fa";
 
 const ProjectList = () => (
   <table>
@@ -14,7 +14,10 @@ const ProjectList = () => (
     <tr className="table_light">
       <td>2020</td>
       <td>
-        <a href="https://mern-places-udemy.firebaseapp.com/">Places App</a>
+        <a href="https://mern-places-udemy.firebaseapp.com/">
+          <FaExternalLinkSquareAlt />
+          Places App
+        </a>
       </td>
       <td>React · Express · Node.js · Firebase · Heroku</td>
       <td>&nbsp; -</td>

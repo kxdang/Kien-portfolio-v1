@@ -1,53 +1,49 @@
-import React from 'react';
-import { FaClose } from 'react-icons/lib/fa/'; 
-import Avatar from '../components/Avatar';
+import React from "react";
+import { FaWindowClose } from "react-icons/fa";
+import Avatar from "../components/Avatar";
 
-const ToolBoxPopOver = ({ 
-  top, 
-  bottom, 
-  left, 
-  right, 
-  modifierClasses, 
+const ToolBoxPopOver = ({
+  top,
+  bottom,
+  left,
+  right,
+  modifierClasses,
   description,
   comment,
-  onClick }) => 
-{
+  onClick
+}) => {
   return (
-    <div 
+    <div
       className={`c-toolbox-popover ${modifierClasses}`}
-      style={{ 
-        bottom: bottom, 
-        top: top,         
+      style={{
+        bottom: bottom,
+        top: top,
         left: left,
-        right: right 
+        right: right
       }}
     >
-      <button 
-        className="c-toolbox-popover__close"
-        onClick={onClick}
-      >
-        <FaClose />
+      <button className="c-toolbox-popover__close" onClick={onClick}>
+        <FaWindowClose />
       </button>
       <div className="c-toolbox-popover__text">
-        <p className="c-toolbox-popover__description"
-          dangerouslySetInnerHTML={{__html: description}}
+        <p
+          className="c-toolbox-popover__description"
+          dangerouslySetInnerHTML={{ __html: description }}
         />
-        {comment &&
+        {comment && (
           <div className="c-toolbox-popover__footer">
             <div className="c-toolbox-popover__avatar">
-              <Avatar 
-                modifierClasses="c-avatar--as-author"
-              />
-            </div>  
-            <span 
-              className="c-toolbox-popover__comment" 
-              dangerouslySetInnerHTML={{__html: comment}} 
+              <Avatar modifierClasses="c-avatar--as-author" />
+            </div>
+            <span
+              className="c-toolbox-popover__comment"
+              dangerouslySetInnerHTML={{ __html: comment }}
             />
-          </div>     
-        }                    
+          </div>
+        )}
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default ToolBoxPopOver;

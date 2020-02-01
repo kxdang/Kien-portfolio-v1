@@ -1,7 +1,7 @@
 import React from "react";
 import HeadlineWithFocus from "../components/HeadlineWithFocus";
 import ProjectList from "../components/ProjectList";
-import { FaExternalLink, FaGithub } from "react-icons/lib/fa/";
+import { FaExternalLink, FaGithub } from "react-icons/fa";
 import Helmet from "react-helmet";
 
 export default () => (

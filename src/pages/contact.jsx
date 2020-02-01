@@ -1,7 +1,7 @@
 import React from "react";
 import HeadlineWithFocus from "../components/HeadlineWithFocus";
 import Obfuscate from "react-obfuscate";
-import { FaEnvelopeO, FaLinkedin, FaGithub } from "react-icons/lib/fa/";
+import { FaEnvelopeOpen, FaLinkedin, FaGithub } from "react-icons/fa";
 import Helmet from "react-helmet";
 
 export default props => {
@@ -14,7 +14,7 @@ export default props => {
       </HeadlineWithFocus>
       <ul className="c-contact-list">
         <li className="c-contact-list__item">
-          <FaEnvelopeO />
+          <FaEnvelopeOpen />
           <Obfuscate email="hello@kien.dev" />
         </li>
         <li className="c-contact-list__item">
