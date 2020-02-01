@@ -26,12 +26,17 @@ const ProjectList = () => (
       <td>2019</td>
       <td>
         <a href="https://dang-sweater-weather.herokuapp.com/" target="_blank">
+          <FaExternalLinkSquareAlt />
           Weather Application
         </a>
       </td>
       <td>JavaScript · Node.js · Mapbox API · Darksky API · Heroku</td>
       <td>
-        <a href="%" className="icon">
+        <a
+          href="https://github.com/kxdang/sweather-app"
+          target="_blank"
+          className="icon"
+        >
           <FaGithub />
         </a>
       </td>
@@ -41,6 +46,7 @@ const ProjectList = () => (
       <td>2019</td>
       <td>
         <a href="https://www.kiendang.me" target="_blank">
+          <FaExternalLinkSquareAlt />
           Personal Blog
         </a>
       </td>
@@ -59,7 +65,8 @@ const ProjectList = () => (
     <tr className="table_light">
       <td>2016</td>
       <td>
-        <a href="https://www.kiendang.me" target="_blank">
+        <a href="https://github.com/kxdang/Organizing-File" target="_blank">
+          <FaExternalLinkSquareAlt />
           PyFileOrganizer
         </a>
       </td>
