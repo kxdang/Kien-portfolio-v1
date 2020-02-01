@@ -1,5 +1,6 @@
 import React from "react";
 import HeadlineWithFocus from "../components/HeadlineWithFocus";
+import ProjectList from "../components/ProjectList";
 import { FaExternalLink, FaGithub } from "react-icons/lib/fa/";
 import Helmet from "react-helmet";
 
@@ -11,5 +12,6 @@ export default () => (
       {/*<span>What's that?</span>*/}
     </HeadlineWithFocus>
     <p>Coming soon...</p>
+    <ProjectList />
   </div>
 );

@@ -60,25 +60,25 @@ class ToolBoxListContainer extends React.Component {
         {
           id: 12,
           label: "Node.js",
-          description: `A runtime environment for executing JavaScript code outside of the browser used to build back-end services (APIs) which powers the client applications like Web App and Mobile Apps`,
-          comment: `I completed and my Nodejs and Express bootcamp from Andrew Mead and a MERN development course from Max`
+          description: `A runtime environment for executing JavaScript code outside of the browser used to build back-end services (APIs) which powers the client applications like web apps and mobile apps`,
+          comment: `I completed and my Nodejs and Express bootcamp from <a href="https://www.udemy.com/certificate/UC-YMFEZRDR/" target="_blank">Andrew Mead</a> and a MERN development course from <a href="https://www.udemy.com/certificate/UC-JWMOPYQP/" target="_blank">Academind</a>`
         },
         {
           id: 11,
           label: "MongoDB",
           description: `A NoSQL database program that I've been using in my projects`,
-          comment: `I completed a Node.js and Express bootcamp from Andrew Mead and a MERN development course from Academind`
+          comment: `I completed a Node.js and Express bootcamp from <a href="https://www.udemy.com/certificate/UC-YMFEZRDR/" target="_blank">Andrew Mead</a> and a MERN development course from <a href="https://www.udemy.com/certificate/UC-JWMOPYQP/" target="_blank">Academind</a>`
         },
         {
           id: 5,
           label: "Express",
           description: `A web application framework for Node.js. It helps organize web applications into an MVC architecture on the server side.`,
-          comment: `I learned this along with MongoDB from Andrew Mead and Academind on Udemy.`
+          comment: `I learned this along with MongoDB from <a href="https://www.udemy.com/certificate/UC-YMFEZRDR/" target="_blank">Andrew Mead</a>and <a href="https://www.udemy.com/certificate/UC-JWMOPYQP/" target="_blank">Academind</a>.`
         },
         {
           id: 15,
           label: "Wordpress",
-          description: `I initially hosted my blog using Wordpress, however, my curiousity lead me to hosting on a static site generator to reduce cost.`,
+          description: `I initially hosted my blog using Wordpress, however, my curiousity lead me to hosting on a Netlify with Gatsby to reduce cost.`,
           comment: `I still remember how to use Wordpress!`
         },
         {
