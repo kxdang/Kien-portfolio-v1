@@ -20,7 +20,7 @@ const Index = props => {
       <p className="__intro">
         I'm a life-long learner with a passion for solving problems via code. I
         have a technical background in biochemistry and decided to make a career
-        change. I created a <a href="https://www.kiendang.me">blog</a> to
+        change. I created a <a href="https://www.kiendang.me/about">blog</a> to
         document my journey and progress; feel free to take a peak!
       </p>
     </div>
