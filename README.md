@@ -1,19 +1,18 @@
-# 🛠 Underconstruction 🛠
-
-Currently a work in progress
-
-# www.kien.dev
+# <center> www.kien.dev
 
 Alternative url: www.kiendang.dev
+Personal Blog: www.kiendang.me
+
+![](/kienwebsite.png)
+
+My personal website hosted on for free on [Netlify](https://www.netlify.com/)!
+
+A personal portfolio I modified from an open source Gatsby portfolio found below. I added my own personal projects page.
 
 ### Built with ♥:
 
 - [Gatsby](https://github.com/gatsbyjs/gatsby)
 - [React](https://github.com/facebook/react)
-
-### Starter site:
-
-- [gatsby-starter-hello-world](https://github.com/gatsbyjs/gatsby-starter-hello-world)
 
 ### Additional plugins and packages and more:
 
@@ -28,4 +27,4 @@ Alternative url: www.kiendang.dev
 - [react-obfuscate](https://github.com/coston/react-obfuscate)
 - [Exo and Roboto fonts through typefaces](https://github.com/KyleAMathews/typefaces)
 
-Taken and modified from (greglobinski.com) from Gatsby Portfolio templates.
+Taken and modified from [greglobinski.com](https://github.com/greglobinski/www.greglobinski.com) from Gatsby Portfolio templates.
