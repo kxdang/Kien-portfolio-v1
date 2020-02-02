@@ -24,14 +24,6 @@ const MainFooter = () => (
       >
         Netlify
       </a>
-      . The code is open source and available at{" "}
-      <a
-        href="https://github.com/kxdang/Kien-portfolio-v1"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Github
-      </a>
       .
     </p>
   </div>
