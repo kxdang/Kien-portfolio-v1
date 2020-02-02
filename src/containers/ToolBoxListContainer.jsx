@@ -1,7 +1,6 @@
 import React from "react";
 import ToolBoxList from "../components/ToolBoxList";
 import ToolBoxPopOver from "../components/ToolBoxPopOver";
-import FaUser from "react-icons/fa";
 
 class ToolBoxListContainer extends React.Component {
   constructor(props) {
@@ -23,13 +22,13 @@ class ToolBoxListContainer extends React.Component {
           comment: `I found multiple resources to learn the fundamentals and ES6+`
         },
         {
-          id: 3,
+          id: 2,
           label: "HTML5 / CSS",
           description: `I learned HTML & CSS through <a href="https://www.freecodecamp.org/certification/kxdang/responsive-web-design" target="_blank">freeCodeCamp</a>, w3schools and Treehouse back in 2017.`,
           comment: `I had initial interest in building websites during school. I recently enrolled in a CSS course to improve my CSS skills.`
         },
         {
-          id: 21,
+          id: 18,
           label: "SCSS/SASS",
           description: `I learned SCSS and SASS through a Udemy course by Jonas Schmedtmann. It covered advanced CSS knowledge which includes Flexbox, Grids and animations.`
         },
@@ -82,10 +81,21 @@ class ToolBoxListContainer extends React.Component {
           comment: `I still remember how to use Wordpress!`
         },
         {
+          id: 22,
+          label: "Photoshop",
+          description: `I use this program recreationally and for other purposes such as to sampling image colours for my personal projects and creating mock-ups.`,
+          comment: `Alternatively, I use <a href="https://www.photopea.com/" target="_blank"> Photopea</a> when I'm not on my personal computer`
+        },
+        {
+          id: 23,
+          label: "Illustrator",
+          description: `I use this program recreationally. I learned all of my skills from YouTube 😅.`
+        },
+        {
           id: 17,
           label: "PHP",
-          description: `I am still learning this language`,
-          comment: `Currently learning PHP to make a Spotify clone!`
+          description: `Currently learning PHP to make a Spotify clone`,
+          comment: `I will be adding this to my projects soon!`
         }
       ],
       activatedItem: null,

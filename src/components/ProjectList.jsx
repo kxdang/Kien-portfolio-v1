@@ -45,6 +45,29 @@ const ProjectList = () => (
     <tr className="table_light">
       <td>2019</td>
       <td>
+        <a
+          href="https://www.kiendang.me/029-automated-job-process/"
+          target="_blank"
+        >
+          <FaExternalLinkSquareAlt />
+          RFQ Checker
+        </a>
+      </td>
+      <td>Visual Basics for Applications</td>
+      <td>
+        <a
+          href="https://github.com/kxdang/Excel-Macros-Checker"
+          target="_blank"
+          className="icon"
+        >
+          <FaGithub />
+        </a>
+      </td>
+    </tr>
+
+    <tr className="table_light">
+      <td>2019</td>
+      <td>
         <a href="https://www.kiendang.me" target="_blank">
           <FaExternalLinkSquareAlt />
           Personal Blog
