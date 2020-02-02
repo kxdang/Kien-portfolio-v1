@@ -10,12 +10,12 @@ My personal website hosted on for free on [Netlify](https://www.netlify.com/)!
 
 A personal portfolio I modified from an open source Gatsby portfolio found below. I added my own personal projects page.
 
-### Built with ♥:
+### 🔨Built with ♥:
 
 - [Gatsby](https://github.com/gatsbyjs/gatsby)
 - [React](https://github.com/facebook/react)
 
-### Additional plugins and packages and more:
+### 🔌Additional plugins and packages and more:
 
 - [gatsby-plugin-postcss-sass](https://github.com/gatsbyjs/gatsby/tree/master/packages/gatsby-plugin-postcss-sass)
 - [gatsby-plugin-react-helmet](https://github.com/gatsbyjs/gatsby/tree/master/packages/gatsby-plugin-react-helmet)
