@@ -9,7 +9,7 @@ export default () => (
     <Helmet title="Kien's Tools" />
 
     <HeadlineWithFocus>
-      <span>These are pieces of </span>my toolbox
+      <span>Here are the</span> tools I use
     </HeadlineWithFocus>
     <ToolBoxListContainer />
   </div>

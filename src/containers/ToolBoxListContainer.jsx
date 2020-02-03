@@ -89,7 +89,13 @@ class ToolBoxListContainer extends React.Component {
         {
           id: 23,
           label: "Illustrator",
-          description: `I use this program recreationally. I learned all of my skills from YouTube 😅.`
+          description: `I use this program recreationally. I learned all of my skills from YouTube.`
+        },
+        {
+          id: 24,
+          label: "Visual Studio Code",
+          description: `Source-code editor created by Microsoft.`,
+          comment: `I use many extensions to increase my productivity and workflow.`
         },
         {
           id: 17,
