@@ -20,7 +20,16 @@ const ProjectList = () => (
         </a>
       </td>
       <td>React · Express · Node.js · Firebase · Heroku</td>
-      <td>&nbsp; -</td>
+      <td>
+        {" "}
+        <a
+          href="https://github.com/kxdang/mern-places-app"
+          target="_blank"
+          className="icon"
+        >
+          <FaGithub />
+        </a>
+      </td>
     </tr>
     <tr>
       <td>2019</td>
