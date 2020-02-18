@@ -54,7 +54,7 @@ class ToolBoxListContainer extends React.Component {
           id: 20,
           label: "GraphQL",
           description: `It's a query language for APIs <a href="http://graphql.org/" target="_blank">GraphQL</a>.`,
-          comment: `I love learning the latest tech. My <a href="http://graphql.org/" target="_blank">blog</a> currently uses GraphQL to parse its data from the markdown files`
+          comment: `I love learning the latest tech. My <a href="http://www.kiendang.me" target="_blank">blog</a> currently uses GraphQL to parse its data from the markdown files`
         },
         {
           id: 12,
