@@ -44,7 +44,7 @@ const ProjectList = () => (
       <td>
         {" "}
         <a
-          href="https://github.com/kxdang/kien-trillo-app 
+          href="https://github.com/kxdang/kien-trillo-app"
           target="_blank"
           className="icon"
         >
@@ -66,7 +66,7 @@ const ProjectList = () => (
       <td>
         {" "}
         <a
-          href="https://github.com/kxdang/kien-nature-website 
+          href="https://github.com/kxdang/kien-nature-website"
           target="_blank"
           className="icon"
         >
@@ -86,7 +86,7 @@ const ProjectList = () => (
       <td>
         {" "}
         <a
-          href="https://github.com/kxdang/mern-places-app
+          href="https://github.com/kxdang/mern-places-app"
           target="_blank"
           className="icon"
         >
