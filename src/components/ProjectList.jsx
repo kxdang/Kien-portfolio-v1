@@ -14,7 +14,7 @@ const ProjectList = () => (
     <tr className="table_light">
       <td>2020</td>
       <td>
-        <a href="https://kien-realtor-site.netlify.com/">
+        <a href="https://kien-realtor-site.netlify.com/" target="_blank">
           <FaExternalLinkSquareAlt />
           Realtor Website
         </a>
@@ -35,7 +35,7 @@ const ProjectList = () => (
     <tr className="table_light">
       <td>2020</td>
       <td>
-        <a href="https://kien-trillo-app.netlify.com/">
+        <a href="https://kien-trillo-app.netlify.com/" target="_blank">
           <FaExternalLinkSquareAlt />
           Trillo Web App
         </a>
@@ -44,7 +44,7 @@ const ProjectList = () => (
       <td>
         {" "}
         <a
-          href="https://github.com/kxdang/kien-trillo-app"
+          href="https://github.com/kxdang/kien-trillo-app 
           target="_blank"
           className="icon"
         >
@@ -57,7 +57,7 @@ const ProjectList = () => (
     <tr className="table_light">
       <td>2020</td>
       <td>
-        <a href="https://kien-nature-site.netlify.com/">
+        <a href="https://kien-nature-site.netlify.com/" target="_blank">
           <FaExternalLinkSquareAlt />
           Nature Landing Page
         </a>
@@ -66,7 +66,7 @@ const ProjectList = () => (
       <td>
         {" "}
         <a
-          href="https://github.com/kxdang/kien-nature-website"
+          href="https://github.com/kxdang/kien-nature-website 
           target="_blank"
           className="icon"
         >
@@ -77,7 +77,7 @@ const ProjectList = () => (
     <tr>
       <td>2020</td>
       <td>
-        <a href="https://mern-places-udemy.firebaseapp.com/">
+        <a href="https://mern-places-udemy.firebaseapp.com/" target="_blank">
           <FaExternalLinkSquareAlt />
           Places App
         </a>
@@ -86,7 +86,7 @@ const ProjectList = () => (
       <td>
         {" "}
         <a
-          href="https://github.com/kxdang/mern-places-app"
+          href="https://github.com/kxdang/mern-places-app
           target="_blank"
           className="icon"
         >
