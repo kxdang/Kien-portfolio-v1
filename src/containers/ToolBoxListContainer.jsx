@@ -28,77 +28,90 @@ class ToolBoxListContainer extends React.Component {
           comment: `I had initial interest in building websites during school. I recently enrolled in a CSS course to improve my CSS skills.`
         },
         {
-          id: 18,
+          id: 3,
           label: "SCSS/SASS",
           description: `I learned SCSS and SASS through a Udemy course by Jonas Schmedtmann. It covered advanced CSS knowledge which includes Flexbox, Grids and animations.`
         },
         {
-          id: 19,
+          id: 4,
           label: "Github",
           description: `I host all my projects on Github to track my progress in programming.`,
           comment: `My <a href="https://github.com/kxdang" target="_blank">Github</a>`
         },
         {
-          id: 7,
+          id: 5,
           label: "React",
           description: `I've been learning about this library to build web applications.`,
           comment: `My journey is still on-going!`
         },
         {
-          id: 9,
+          id: 6,
           label: "Gatsby",
           description: `I built this website and my personal blog using Gatsby which is a static PWA (Progressive Web App) generator. `,
           comment: `I love the simplicity of Gatsby how fast the websites are.`
         },
         {
-          id: 20,
+          id: 7,
           label: "GraphQL",
           description: `It's a query language for APIs <a href="http://graphql.org/" target="_blank">GraphQL</a>.`,
           comment: `I love learning the latest tech. My <a href="http://www.kiendang.me" target="_blank">blog</a> currently uses GraphQL to parse its data from the markdown files`
         },
         {
-          id: 12,
+          id: 8,
           label: "Node.js",
           description: `A runtime environment for executing JavaScript code outside of the browser used to build back-end services (APIs) which powers the client applications like web apps and mobile apps`,
           comment: `I completed and my Nodejs and Express bootcamp from <a href="https://www.udemy.com/certificate/UC-YMFEZRDR/" target="_blank">Andrew Mead</a> and a MERN development course from <a href="https://www.udemy.com/certificate/UC-JWMOPYQP/" target="_blank">Academind</a>`
         },
         {
-          id: 11,
+          id: 9,
           label: "MongoDB",
           description: `A NoSQL database program that I've been using in my projects`,
           comment: `I completed a Node.js and Express bootcamp from <a href="https://www.udemy.com/certificate/UC-YMFEZRDR/" target="_blank">Andrew Mead</a> and a MERN development course from <a href="https://www.udemy.com/certificate/UC-JWMOPYQP/" target="_blank">Academind</a>`
         },
         {
-          id: 5,
+          id: 10,
           label: "Express",
           description: `A web application framework for Node.js. It helps organize web applications into an MVC architecture on the server side.`,
           comment: `I learned this along with MongoDB from <a href="https://www.udemy.com/certificate/UC-YMFEZRDR/" target="_blank">Andrew Mead</a>and <a href="https://www.udemy.com/certificate/UC-JWMOPYQP/" target="_blank">Academind</a>.`
         },
         {
-          id: 15,
+          id: 11,
+          label: "Python",
+          description: `A progamming language for general-purpose applications`,
+          comment: `I created multiple projects back in University and continued learning from <a href ="https://automatetheboringstuff.com/" target="_blank">Al Sweigart</a>`
+        },
+        {
+          id: 17,
+          label: "Visual Basics",
+          description: `An event-driven programming language used in Office software.`,
+          comment: `I automated a process at my previous workplace which saved the company over <a href ="https://www.kiendang.me/029-automated-job-process/" target="_blank">$4000 annually</a> and reduced the number of errors from 4.00% to 2.78%`
+        },
+        {
+          id: 12,
           label: "Wordpress",
           description: `I initially hosted my blog using Wordpress, however, my curiousity lead me to hosting on a Netlify with Gatsby to reduce cost.`,
           comment: `I still remember how to use Wordpress!`
         },
         {
-          id: 22,
+          id: 13,
           label: "Photoshop",
           description: `I use this program recreationally and for other purposes such as to sampling image colours for my personal projects and creating mock-ups.`,
           comment: `Alternatively, I use <a href="https://www.photopea.com/" target="_blank"> Photopea</a> when I'm not on my personal computer`
         },
         {
-          id: 23,
+          id: 14,
           label: "Illustrator",
-          description: `I use this program recreationally. I learned all of my skills from YouTube.`
+          description: `Vectors graphics editor part of the Adobe Creative Cloud`,
+          comment: `I use this program recreationally. I learned all of my skills from YouTube.`
         },
         {
-          id: 24,
+          id: 15,
           label: "Visual Studio Code",
           description: `Source-code editor created by Microsoft.`,
           comment: `I use many extensions to increase my productivity and workflow.`
         },
         {
-          id: 17,
+          id: 16,
           label: "PHP",
           description: `Currently learning PHP to make a Spotify clone`,
           comment: `I will be adding this to my projects soon!`

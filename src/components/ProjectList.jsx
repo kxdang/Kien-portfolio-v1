@@ -14,6 +14,69 @@ const ProjectList = () => (
     <tr className="table_light">
       <td>2020</td>
       <td>
+        <a href="https://kien-realtor-site.netlify.com/">
+          <FaExternalLinkSquareAlt />
+          Realtor Website
+        </a>
+      </td>
+      <td>HTML · CSS/SASS</td>
+      <td>
+        {" "}
+        <a
+          href="https://github.com/kxdang/kien-realtor-site"
+          target="_blank"
+          className="icon"
+        >
+          <FaGithub />
+        </a>
+      </td>
+    </tr>
+
+    <tr className="table_light">
+      <td>2020</td>
+      <td>
+        <a href="https://kien-trillo-app.netlify.com/">
+          <FaExternalLinkSquareAlt />
+          Trillo Web App
+        </a>
+      </td>
+      <td>HTML · CSS/SASS</td>
+      <td>
+        {" "}
+        <a
+          href="https://github.com/kxdang/kien-trillo-app"
+          target="_blank"
+          className="icon"
+        >
+          <FaGithub />
+        </a>
+      </td>
+    </tr>
+
+
+    <tr className="table_light">
+      <td>2020</td>
+      <td>
+        <a href="https://kien-nature-site.netlify.com/">
+          <FaExternalLinkSquareAlt />
+          Nature Landing Page
+        </a>
+      </td>
+      <td>HTML · CSS/SASS</td>
+      <td>
+        {" "}
+        <a
+          href="https://github.com/kxdang/kien-nature-website"
+          target="_blank"
+          className="icon"
+        >
+          <FaGithub />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>2020</td>
+      <td>
         <a href="https://mern-places-udemy.firebaseapp.com/">
           <FaExternalLinkSquareAlt />
           Places App
@@ -113,7 +176,7 @@ const ProjectList = () => (
         </a>
       </td>
     </tr>
-  </table>
+  </table >
 );
 
 export default ProjectList;
