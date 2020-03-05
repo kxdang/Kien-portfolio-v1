@@ -120,7 +120,7 @@ class ToolBoxListContainer extends React.Component {
           id: 21,
           label: "Java",
           description: `Used with Android SDK to build android application`,
-          comment: `I was learning how to build  <a href="https://www.kiendang.me/tags/java/" target="_blank">android</a>an applications as a hobby while working full-time. However, I ended up switching to web development to build web applications. My knowledge of Java is very limited but has deepen my understanding of OOP.`
+          comment: `I was learning how to build  <a href="https://www.kiendang.me/tags/java/" target="_blank">android</a> applications as a hobby while working full-time. However, I ended up switching to web development to build web applications. My knowledge of Java is very limited but has deepen my understanding of OOP.`
         }
       ],
       activatedItem: null,
