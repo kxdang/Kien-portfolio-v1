@@ -14,6 +14,27 @@ const ProjectList = () => (
     <tr className="table_light">
       <td>2020</td>
       <td>
+        <a href="https://kien-disco-boxes.netlify.com/" target="_blank">
+          <FaExternalLinkSquareAlt />
+          Disco Colour Box
+        </a>
+      </td>
+      <td>React</td>
+      <td>
+        {" "}
+        <a
+          href="https://github.com/kxdang/color-box-reactapp"
+          target="_blank"
+          className="icon"
+        >
+          <FaGithub />
+        </a>
+      </td>
+    </tr>
+
+    <tr className="table_light">
+      <td>2020</td>
+      <td>
         <a href="https://kien-realtor-site.netlify.com/" target="_blank">
           <FaExternalLinkSquareAlt />
           Realtor Website

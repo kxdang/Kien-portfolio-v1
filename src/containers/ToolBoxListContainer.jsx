@@ -19,13 +19,13 @@ class ToolBoxListContainer extends React.Component {
           id: 1,
           label: "JavaScript",
           description: `I learned JavaScript through MDN, freeCodeCamp and from <a href="https://www.udemy.com/certificate/UC-RIO305CO/" target="_blank">Andrew Mead</a>`,
-          comment: `I found multiple resources to learn the fundamentals and ES6+`
+          comment: `I found multiple resources to learn the fundamentals and ES6+.`
         },
         {
           id: 2,
           label: "HTML5 / CSS",
-          description: `I learned HTML & CSS through <a href="https://www.freecodecamp.org/certification/kxdang/responsive-web-design" target="_blank">freeCodeCamp</a>, w3schools and Treehouse back in 2017.`,
-          comment: `I had initial interest in building websites during school. I recently enrolled in a CSS course to improve my CSS skills.`
+          description: `I learned HTML & CSS through <a href="https://www.freecodecamp.org/certification/kxdang/responsive-web-design" target="_blank">freeCodeCamp</a> and Treehouse back in 2017.`,
+          comment: `I had initial interest in building websites during school.`
         },
         {
           id: 3,
@@ -36,7 +36,7 @@ class ToolBoxListContainer extends React.Component {
           id: 4,
           label: "Github",
           description: `I host all my projects on Github to track my progress in programming.`,
-          comment: `My <a href="https://github.com/kxdang" target="_blank">Github</a>`
+          comment: `My <a href="https://github.com/kxdang" target="_blank">Github</a>.`
         },
         {
           id: 5,
@@ -48,25 +48,25 @@ class ToolBoxListContainer extends React.Component {
           id: 6,
           label: "Gatsby",
           description: `I built this website and my personal blog using Gatsby which is a static PWA (Progressive Web App) generator. `,
-          comment: `I love the simplicity of Gatsby how fast the websites are.`
+          comment: `I love the simplicity of Gatsby and how fast the websites load.`
         },
         {
           id: 7,
           label: "GraphQL",
           description: `It's a query language for APIs <a href="http://graphql.org/" target="_blank">GraphQL</a>.`,
-          comment: `I love learning the latest tech. My <a href="http://www.kiendang.me" target="_blank">blog</a> currently uses GraphQL to parse its data from the markdown files`
+          comment: `I love learning the latest tech. My <a href="http://www.kiendang.me" target="_blank">blog</a> currently uses GraphQL to parse its data from markdown files.`
         },
         {
           id: 8,
           label: "Node.js",
           description: `A runtime environment for executing JavaScript code outside of the browser used to build back-end services (APIs) which powers the client applications like web apps and mobile apps`,
-          comment: `I completed and my Nodejs and Express bootcamp from <a href="https://www.udemy.com/certificate/UC-YMFEZRDR/" target="_blank">Andrew Mead</a> and a MERN development course from <a href="https://www.udemy.com/certificate/UC-JWMOPYQP/" target="_blank">Academind</a>`
+          comment: `I completed and my Nodejs and Express bootcamp from <a href="https://www.udemy.com/certificate/UC-YMFEZRDR/" target="_blank">Andrew Mead</a> and a MERN development course from <a href="https://www.udemy.com/certificate/UC-JWMOPYQP/" target="_blank">Academind</a>.`
         },
         {
           id: 9,
           label: "MongoDB",
           description: `A NoSQL database program that I've been using in my projects`,
-          comment: `I completed a Node.js and Express bootcamp from <a href="https://www.udemy.com/certificate/UC-YMFEZRDR/" target="_blank">Andrew Mead</a> and a MERN development course from <a href="https://www.udemy.com/certificate/UC-JWMOPYQP/" target="_blank">Academind</a>`
+          comment: `I completed a Node.js and Express bootcamp from <a href="https://www.udemy.com/certificate/UC-YMFEZRDR/" target="_blank">Andrew Mead</a> and a MERN development course from <a href="https://www.udemy.com/certificate/UC-JWMOPYQP/" target="_blank">Academind</a>.`
         },
         {
           id: 10,
@@ -78,13 +78,13 @@ class ToolBoxListContainer extends React.Component {
           id: 11,
           label: "Python",
           description: `A progamming language for general-purpose applications`,
-          comment: `I created multiple projects back in University and continued learning from <a href ="https://automatetheboringstuff.com/" target="_blank">Al Sweigart</a>`
+          comment: `I created multiple projects back in University and continued learning from <a href ="https://automatetheboringstuff.com/" target="_blank">Al Sweigart</a>.`
         },
         {
           id: 17,
           label: "Visual Basics",
           description: `An event-driven programming language used in Office software.`,
-          comment: `I automated a process at my previous workplace which saved the company over <a href ="https://www.kiendang.me/029-automated-job-process/" target="_blank">$4000 annually</a> and reduced the number of errors from 4.00% to 2.78%`
+          comment: `I automated a process at my previous workplace which saved the company over <a href ="https://www.kiendang.me/029-automated-job-process/" target="_blank">$4000 annually</a> and reduced the number of errors from 4.00% to 2.78%.`
         },
         {
           id: 12,
@@ -115,6 +115,12 @@ class ToolBoxListContainer extends React.Component {
           label: "PHP",
           description: `Currently learning PHP to make a Spotify clone`,
           comment: `I will be adding this to my projects soon!`
+        },
+        {
+          id: 21,
+          label: "Java",
+          description: `Used with Android SDK to build android application`,
+          comment: `I was learning how to build  <a href="https://www.kiendang.me/tags/java/" target="_blank">android</a>an applications as a hobby while working full-time. However, I ended up switching to web development to build web applications. My knowledge of Java is very limited but has deepen my understanding of OOP.`
         }
       ],
       activatedItem: null,
