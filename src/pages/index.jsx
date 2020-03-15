@@ -1,6 +1,6 @@
 import React from "react";
 import Avatar from "../components/Avatar";
-import { FaLinkedin, FaGithub } from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaCanadianMapleLeaf } from "react-icons/fa";
 
 import HeadlineWithFocus from "../components/HeadlineWithFocus";
 
@@ -26,6 +26,13 @@ const Index = props => {
             rel="noopener noreferrer"
           >
             <FaLinkedin />
+          </a>
+          <a
+            href="https://www.kiendang.me/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaCanadianMapleLeaf />
           </a>
           <a
             href="https://github.com/kxdang"
