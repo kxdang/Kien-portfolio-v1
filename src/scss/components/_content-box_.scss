@@ -2,7 +2,50 @@
   display: block;
   padding: 1.5rem 0 2rem;
   text-align: center;
+
+  &__contact {
+    padding: 0.5rem 0 1rem;
+    display: grid;
+    grid-template-columns: 1fr min-content 1fr;
+    grid-column-gap: 0.5rem;
+    align-items: center;
+
+    &--logo {
+      display: flex;
+    }
+
+    a {
+      border-bottom: none;
+    }
+  
+    svg {
+      vertical-align: middle;
+      color: $light-gray-color;
+      font-size: 1.3em;
+      margin: 0 0.4rem;
+      text-decoration: none;
+      
+    }
+
+    &::before {
+      content: "";
+      height: 1px;
+      display: block;
+      background-color: $lighter-gray-color;
+      margin-left: 5rem;
+    }
+
+    &::after {
+      content: "";
+      height: 1px;
+      display: block;
+      background-color: $lighter-gray-color;
+      margin-right: 5rem;
+    }
+  
+  }
 }
+
 
 .c-content-box__subheadline--with-button {
   display: inline;
