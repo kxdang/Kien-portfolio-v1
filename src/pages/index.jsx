@@ -28,7 +28,7 @@ const Index = props => {
             <FaLinkedin />
           </a>
           <a
-            href="https://www.kiendang.me/"
+            href="https://www.kiendang.me/about"
             target="_blank"
             rel="noopener noreferrer"
           >
