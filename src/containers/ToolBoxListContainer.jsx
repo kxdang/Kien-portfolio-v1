@@ -111,16 +111,10 @@ class ToolBoxListContainer extends React.Component {
           comment: `I use many extensions to increase my productivity and workflow.`
         },
         {
-          id: 16,
-          label: "PHP",
-          description: `Currently learning PHP to make a Spotify clone`,
-          comment: `I will be adding this to my projects soon!`
-        },
-        {
           id: 21,
           label: "Java",
-          description: `Used with Android SDK to build android application`,
-          comment: `I was learning how to build  <a href="https://www.kiendang.me/tags/java/" target="_blank">android</a> applications as a hobby while working full-time. However, I ended up switching to web development to build web applications. My knowledge of Java is very limited but has deepen my understanding of OOP.`
+          description: `Java learned with Android SDK to build android applications`,
+          comment: `I learned how to build <a href="https://www.kiendang.me/tags/java/" target="_blank">android</a> applications as a hobby while working full-time. My knowledge of Java is very limited but has deepen my understanding of OOP.`
         }
       ],
       activatedItem: null,
