@@ -11,7 +11,7 @@ export default () => (
       Projects
       {/*<span>What's that?</span>*/}
     </HeadlineWithFocus>
-    <p>More projects coming with React!</p>
+    <p>All projects are live, click on the project name to open them!</p>
     <ProjectList />
   </div>
 );
