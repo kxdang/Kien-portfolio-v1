@@ -16,15 +16,22 @@
 
     a {
       border-bottom: none;
+      &:hover {
+        svg {
+          color: $first-color;
+        }
+      }
     }
-  
+
+    
     svg {
       vertical-align: middle;
       color: $light-gray-color;
       font-size: 1.3em;
       margin: 0 0.4rem;
       text-decoration: none;
-      
+
+    
     }
 
     &::before {
@@ -42,7 +49,6 @@
       background-color: $lighter-gray-color;
       margin-right: 5rem;
     }
-  
   }
 }
 

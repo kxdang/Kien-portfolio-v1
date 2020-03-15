@@ -32,14 +32,14 @@ const Index = props => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaCanadianMapleLeaf />
+            <FaCanadianMapleLeaf id="leaf" />
           </a>
           <a
             href="https://github.com/kxdang"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaGithub className="c-content-box__contact--svg" />
+            <FaGithub />
           </a>
         </div>
 
@@ -48,9 +48,9 @@ const Index = props => {
         I'm a life-long learner with a passion for solving problems via code. I
         have a technical background in biochemistry and decided to make a career
         change. I created a <a href="https://www.kiendang.me/about">blog</a> to
-              document my journey and progress; feel free to take a peek!
+            document my journey and progress; feel free to take a peek!
       </p>
-    </div>
+    </div >
   );
 };
 
