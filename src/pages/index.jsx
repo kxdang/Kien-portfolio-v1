@@ -1,6 +1,6 @@
 import React from "react";
 import Avatar from "../components/Avatar";
-import { FaLinkedin, FaGithub, FaCanadianMapleLeaf } from "react-icons/fa";
+import { FaLinkedin, FaGithubSquare, FaCanadianMapleLeaf } from "react-icons/fa";
 
 import HeadlineWithFocus from "../components/HeadlineWithFocus";
 
@@ -39,7 +39,7 @@ const Index = props => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaGithub />
+            <FaGithubSquare />
           </a>
         </div>
 
