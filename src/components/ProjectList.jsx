@@ -23,7 +23,7 @@ const ProjectList = () => (
       <td>
         {" "}
         <a
-          href="https://github.com/kxdang/LottoMin"
+          href="https://github.com/kxdang/react-todo-list"
           target="_blank"
           className="icon"
         >
