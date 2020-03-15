@@ -52,6 +52,14 @@
   }
 }
 
+#leaf {
+  color: $light-gray-color;
+
+  &:hover {
+    color: #fa163f;
+  }
+}
+
 
 .c-content-box__subheadline--with-button {
   display: inline;
