@@ -18,20 +18,17 @@
       border-bottom: none;
       &:hover {
         svg {
-          color: #fa163f;
+          color: #ff0000;
         }
       }
     }
 
-    
     svg {
       vertical-align: middle;
       color: $light-gray-color;
       font-size: 1.3em;
       margin: 0 0.4rem;
       text-decoration: none;
-
-    
     }
 
     &::before {
@@ -52,14 +49,13 @@
   }
 }
 
-#leaf {
-  color: $light-gray-color;
+// #leaf {
+//   color: $light-gray-color;
 
-  &:hover {
-    color: #fa163f;
-  }
-}
-
+//   &:hover {
+//     color: red;
+//   }
+// }
 
 .c-content-box__subheadline--with-button {
   display: inline;
