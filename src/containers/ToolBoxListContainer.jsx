@@ -17,7 +17,7 @@ class ToolBoxListContainer extends React.Component {
       items: [
         {
           id: 5,
-          label: "React",
+          label: "React.js",
           description: `I've been learning about this library to build web applications.`,
           comment: `My journey is still on-going!`
         },
