@@ -16,6 +16,12 @@ class ToolBoxListContainer extends React.Component {
     this.state = {
       items: [
         {
+          id: 5,
+          label: "React",
+          description: `I've been learning about this library to build web applications.`,
+          comment: `My journey is still on-going!`
+        },
+        {
           id: 1,
           label: "JavaScript",
           description: `I learned JavaScript through MDN, freeCodeCamp and from <a href="https://www.udemy.com/certificate/UC-RIO305CO/" target="_blank">Andrew Mead</a>`,
@@ -39,12 +45,6 @@ class ToolBoxListContainer extends React.Component {
           comment: `My <a href="https://github.com/kxdang" target="_blank">Github</a>.`
         },
         {
-          id: 5,
-          label: "React",
-          description: `I've been learning about this library to build web applications.`,
-          comment: `My journey is still on-going!`
-        },
-        {
           id: 6,
           label: "Gatsby",
           description: `I built this website and my personal blog using Gatsby which is a static PWA (Progressive Web App) generator. `,
@@ -65,7 +65,7 @@ class ToolBoxListContainer extends React.Component {
         {
           id: 9,
           label: "MongoDB",
-          description: `A NoSQL database program that I've been using in my projects`,
+          description: `A NoSQL database program that I used in my online course.`,
           comment: `I completed a Node.js and Express bootcamp from <a href="https://www.udemy.com/certificate/UC-YMFEZRDR/" target="_blank">Andrew Mead</a> and a MERN development course from <a href="https://www.udemy.com/certificate/UC-JWMOPYQP/" target="_blank">Academind</a>.`
         },
         {
@@ -75,22 +75,10 @@ class ToolBoxListContainer extends React.Component {
           comment: `I learned this along with MongoDB from <a href="https://www.udemy.com/certificate/UC-YMFEZRDR/" target="_blank">Andrew Mead</a>and <a href="https://www.udemy.com/certificate/UC-JWMOPYQP/" target="_blank">Academind</a>.`
         },
         {
-          id: 11,
-          label: "Python",
-          description: `A progamming language for general-purpose applications`,
-          comment: `I created multiple projects back in University and continued learning from <a href ="https://automatetheboringstuff.com/" target="_blank">Al Sweigart</a>.`
-        },
-        {
           id: 17,
           label: "Visual Basics",
           description: `An event-driven programming language used in Office software.`,
           comment: `I automated a process at my previous workplace which saved the company over <a href ="https://www.kiendang.me/029-automated-job-process/" target="_blank">$4000 annually</a> and reduced the number of errors from 4.00% to 2.78%.`
-        },
-        {
-          id: 12,
-          label: "Wordpress",
-          description: `I initially hosted my blog using Wordpress, however, my curiousity lead me to hosting on a Netlify with Gatsby to reduce cost.`,
-          comment: `I still remember how to use Wordpress!`
         },
         {
           id: 13,
@@ -109,12 +97,6 @@ class ToolBoxListContainer extends React.Component {
           label: "Visual Studio Code",
           description: `Source-code editor created by Microsoft.`,
           comment: `I use many extensions to increase my productivity and workflow.`
-        },
-        {
-          id: 21,
-          label: "Java",
-          description: `Java learned with Android SDK to build android applications`,
-          comment: `I learned how to build <a href="https://www.kiendang.me/tags/java/" target="_blank">android</a> applications as a hobby while working full-time. My knowledge of Java is very limited but has deepen my understanding of OOP.`
         }
       ],
       activatedItem: null,

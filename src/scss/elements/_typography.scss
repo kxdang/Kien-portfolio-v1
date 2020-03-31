@@ -39,4 +39,12 @@ p {
     line-height: 1.4;
     text-align: left;
   }
+
+  &.__contact {
+    color: $head-text-color;
+    font-family: Exo, sans-serif;
+    font-weight: 400;
+    line-height: 1.4;
+    text-align: center;
+  }
 }

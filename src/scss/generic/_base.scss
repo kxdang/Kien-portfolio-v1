@@ -1,7 +1,7 @@
-html {  
+html {
   font-size: 1em;
-  -webkit-text-size-adjust: 1em; 
-  -ms-text-size-adjust: 1em; 
+  -webkit-text-size-adjust: 1em;
+  -ms-text-size-adjust: 1em;
 }
 
 * {
@@ -13,14 +13,13 @@ body {
   font-family: Roboto, sans-serif;
   color: $body-text-color;
   word-wrap: normal;
+  background-color: #fafafa;
 }
 
 @media screen and (min-width: $media-width-L) {
-
-  html {  
+  html {
     font-size: 1.1em;
-    -webkit-text-size-adjust: 1.1em; 
-    -ms-text-size-adjust: 1.1em; 
+    -webkit-text-size-adjust: 1.1em;
+    -ms-text-size-adjust: 1.1em;
   }
-
 }
