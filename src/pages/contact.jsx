@@ -30,12 +30,12 @@ export default props => {
       </ul>
       <div>
         <p className="__contact">
-          If you are reaching me via phone and hear a robot on the line, please
-          note that I am using a{" "}
+          If you are reaching me via phone, please
+          note that I am actively using {" "}
           <a href="" target="__blank">
             Google Call Screen
           </a>{" "}
-          service to combat the increasing robocalls in the GTA. I will have a
+          service to defer frequent robocalls in the GTA. I will have a
           live transcript of your message and will pick up once you are
           screened.
         </p>
