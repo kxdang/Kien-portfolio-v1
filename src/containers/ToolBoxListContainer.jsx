@@ -19,85 +19,85 @@ class ToolBoxListContainer extends React.Component {
           id: 5,
           label: "React.js",
           description: `I've been learning about this library to build web applications.`,
-          comment: `My journey is still on-going!`
+          comment: `My journey is still on-going!`,
         },
         {
           id: 1,
           label: "JavaScript",
           description: `I learned JavaScript through MDN, freeCodeCamp and from <a href="https://www.udemy.com/certificate/UC-RIO305CO/" target="_blank">Andrew Mead</a>`,
-          comment: `I found multiple resources to learn the fundamentals and ES6+.`
+          comment: `I found multiple resources to learn the fundamentals and ES6+.`,
         },
         {
           id: 2,
           label: "HTML5 / CSS",
           description: `I learned HTML & CSS through <a href="https://www.freecodecamp.org/certification/kxdang/responsive-web-design" target="_blank">freeCodeCamp</a> and Treehouse back in 2017.`,
-          comment: `I had initial interest in building websites during school.`
+          comment: `I had initial interest in building websites during school.`,
         },
         {
           id: 3,
           label: "SCSS/SASS",
-          description: `I learned SCSS and SASS through a Udemy course by Jonas Schmedtmann. It covered advanced CSS knowledge which includes Flexbox, Grids and animations.`
+          description: `I learned SCSS and SASS through a Udemy course by Jonas Schmedtmann. It covered advanced CSS knowledge which includes Flexbox, Grids and animations.`,
         },
         {
           id: 4,
           label: "Github",
-          description: `I host all my projects on Github to track my progress in programming.`,
-          comment: `My <a href="https://github.com/kxdang" target="_blank">Github</a>.`
+          description: `I upload all my projects on Github to track my progress in programming.`,
+          comment: `My <a href="https://github.com/kxdang" target="_blank">Github</a>.`,
         },
         {
           id: 6,
           label: "Gatsby",
           description: `I built this website and my personal blog using Gatsby which is a static PWA (Progressive Web App) generator. `,
-          comment: `I love the simplicity of Gatsby and how fast the websites load.`
+          comment: `I love the simplicity of Gatsby and how fast the websites load.`,
         },
         {
           id: 7,
           label: "GraphQL",
           description: `It's a query language for APIs <a href="http://graphql.org/" target="_blank">GraphQL</a>.`,
-          comment: `I love learning the latest tech. My <a href="http://www.kiendang.me" target="_blank">blog</a> currently uses GraphQL to parse its data from markdown files.`
+          comment: `I love learning the latest tech. My <a href="http://www.kiendang.me" target="_blank">blog</a> currently uses GraphQL to parse its data from markdown files.`,
         },
         {
           id: 8,
           label: "Node.js",
           description: `A runtime environment for executing JavaScript code outside of the browser used to build back-end services (APIs) which powers the client applications like web apps and mobile apps`,
-          comment: `I completed and my Nodejs and Express bootcamp from <a href="https://www.udemy.com/certificate/UC-YMFEZRDR/" target="_blank">Andrew Mead</a> and a MERN development course from <a href="https://www.udemy.com/certificate/UC-JWMOPYQP/" target="_blank">Academind</a>.`
+          comment: `I completed and my Nodejs and Express bootcamp from <a href="https://www.udemy.com/certificate/UC-YMFEZRDR/" target="_blank">Andrew Mead</a> and a MERN development course from <a href="https://www.udemy.com/certificate/UC-JWMOPYQP/" target="_blank">Academind</a>.`,
         },
         {
           id: 9,
           label: "MongoDB",
           description: `A NoSQL database program that I used in my online course.`,
-          comment: `I completed a Node.js and Express bootcamp from <a href="https://www.udemy.com/certificate/UC-YMFEZRDR/" target="_blank">Andrew Mead</a> and a MERN development course from <a href="https://www.udemy.com/certificate/UC-JWMOPYQP/" target="_blank">Academind</a>.`
+          comment: `I completed a Node.js and Express bootcamp from <a href="https://www.udemy.com/certificate/UC-YMFEZRDR/" target="_blank">Andrew Mead</a> and a MERN development course from <a href="https://www.udemy.com/certificate/UC-JWMOPYQP/" target="_blank">Academind</a>.`,
         },
         {
           id: 10,
           label: "Express",
           description: `A web application framework for Node.js. It helps organize web applications into an MVC architecture on the server side.`,
-          comment: `I learned this along with MongoDB from <a href="https://www.udemy.com/certificate/UC-YMFEZRDR/" target="_blank">Andrew Mead</a>and <a href="https://www.udemy.com/certificate/UC-JWMOPYQP/" target="_blank">Academind</a>.`
+          comment: `I learned this along with MongoDB from <a href="https://www.udemy.com/certificate/UC-YMFEZRDR/" target="_blank">Andrew Mead</a>and <a href="https://www.udemy.com/certificate/UC-JWMOPYQP/" target="_blank">Academind</a>.`,
         },
         {
           id: 17,
           label: "Visual Basics",
           description: `An event-driven programming language used in Office software.`,
-          comment: `I automated a process at my previous workplace which saved the company over <a href ="https://www.kiendang.me/029-automated-job-process/" target="_blank">$4000 annually</a> and reduced the number of errors from 4.00% to 2.78%.`
+          comment: `I automated a process at my previous workplace which saved the company over <a href ="https://www.kiendang.me/029-automated-job-process/" target="_blank">$4000 annually</a> and reduced the number of errors from 4.00% to 2.78%.`,
         },
         {
           id: 13,
           label: "Photoshop",
           description: `I use this program recreationally and for other purposes such as to sampling image colours for my personal projects and creating mock-ups.`,
-          comment: `Alternatively, I use <a href="https://www.photopea.com/" target="_blank"> Photopea</a> when I'm not on my personal computer`
+          comment: `Alternatively, I use <a href="https://www.photopea.com/" target="_blank"> Photopea</a> when I'm not on my personal computer`,
         },
         {
           id: 14,
           label: "Illustrator",
           description: `Vectors graphics editor part of the Adobe Creative Cloud`,
-          comment: `I use this program recreationally. I learned all of my skills from YouTube.`
+          comment: `I use this program recreationally. I learned all of my skills from YouTube.`,
         },
         {
           id: 15,
           label: "Visual Studio Code",
           description: `Source-code editor created by Microsoft.`,
-          comment: `I use many extensions to increase my productivity and workflow.`
-        }
+          comment: `I use many extensions to increase my productivity and workflow.`,
+        },
       ],
       activatedItem: null,
       popOver: {
@@ -107,9 +107,9 @@ class ToolBoxListContainer extends React.Component {
         leftPx: "auto",
         rightPx: "auto",
         description: "",
-        comment: ""
+        comment: "",
       },
-      popOverPosition: null
+      popOverPosition: null,
     };
   }
 
@@ -160,18 +160,18 @@ class ToolBoxListContainer extends React.Component {
       offsetTop: e.target.offsetTop,
       offsetLeft: e.target.offsetLeft,
       offsetWidth: e.target.offsetWidth,
-      offsetHeight: e.target.offsetHeight
+      offsetHeight: e.target.offsetHeight,
     };
     /*
       check why the initial shape of the code does'n work in iPhone 4
       it semas as array.find() function is not transpiled corectlyu
       const popOver = this.state.items.find(el => el.id === id);
     */
-    const popOver = this.state.items.filter(el => el.id === id)[0];
+    const popOver = this.state.items.filter((el) => el.id === id)[0];
     this.positionPopOver(anchor, popOver);
 
     this.setState(() => ({
-      activatedItem: id
+      activatedItem: id,
     }));
   }
 
@@ -219,9 +219,9 @@ class ToolBoxListContainer extends React.Component {
         rightPx: rightPx,
         modifierClasses: `${positionUnderModifierClass}`,
         description: popOver.description,
-        comment: popOver.comment
+        comment: popOver.comment,
       },
-      popOverPosition: verticalPositionUnder ? "under" : "above"
+      popOverPosition: verticalPositionUnder ? "under" : "above",
     }));
   }
 
@@ -232,10 +232,10 @@ class ToolBoxListContainer extends React.Component {
   deactivatePopOver() {
     this.setState(() => ({
       popOver: {
-        isActive: false
+        isActive: false,
       },
       activatedItem: null,
-      popOverPosition: null
+      popOverPosition: null,
     }));
   }
 

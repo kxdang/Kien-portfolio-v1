@@ -4,7 +4,7 @@ import Obfuscate from "react-obfuscate";
 import { FaEnvelopeOpen, FaTwitter } from "react-icons/fa";
 import Helmet from "react-helmet";
 
-export default props => {
+export default (props) => {
   return (
     <div className="c-content-box">
       <Helmet title="Contact me" />
@@ -30,14 +30,12 @@ export default props => {
       </ul>
       <div>
         <p className="__contact">
-          If you are reaching me via phone, please
-          note that I am actively using {" "}
-          <a href="" target="__blank">
+          If you are reaching me via phone, please note that I am actively using{" "}
+          <a href="https://youtu.be/O4jOdVTkqS4?t=11" target="__blank">
             Google Call Screen
           </a>{" "}
-          service to defer frequent robocalls in the GTA. I will have a
-          live transcript of your message and will pick up once you are
-          screened.
+          service to defer frequent robocalls. Your call will be transcribed and
+          I will pick up once you are screened.
         </p>
       </div>
     </div>
