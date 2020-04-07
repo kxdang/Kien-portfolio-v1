@@ -3,6 +3,7 @@
   padding: 1.5rem 0 2rem;
   text-align: center;
 
+
   &__contact {
     padding: 0.5rem 0 1rem;
     display: grid;
@@ -69,5 +70,11 @@
   .c-content-box {
     max-width: 46rem;
     margin: 0 auto;
+
+   
+  }
+  .project {
+    max-width: 70rem;
+    margin: 0 ;
   }
 }
