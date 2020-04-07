@@ -38,8 +38,7 @@ export default (props) => {
             <a href="https://youtu.be/O4jOdVTkqS4?t=11" target="__blank">
               Google Call Screen
           </a>{" "}
-          service to defer frequent robocalls. Your call will be transcribed and
-          I will pick up once you are screened.
+          service to defer frequent robocalls. Please state who you are and I will pick up after seeing the live transcription. Thank you.
         </p>
         </div>
       </div>
