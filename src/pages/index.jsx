@@ -2,9 +2,11 @@ import React from "react";
 import Avatar from "../components/Avatar";
 import { FaLinkedin, FaGithubSquare, FaCanadianMapleLeaf } from "react-icons/fa";
 
+
 import HeadlineWithFocus from "../components/HeadlineWithFocus";
 
 const Index = props => {
+
   return (
     <div className="c-content-box">
       <Avatar modifierClasses="c-avatar--as-logo" />

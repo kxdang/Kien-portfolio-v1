@@ -7,21 +7,29 @@
     flex-wrap: "wrap";
     display: grid;
     grid-template-columns: repeat(3, 30%);
-    gap: 1rem
+    gap: 1rem;
+   
 }
 
 .ProjectGridCard {
-    background-color: "dae1e4";
-    height: 270px;
+    background-color: #FFF;
+    height: 310px;
     width: 100%;
-    border-radius: 5px;
-    border: 1px solid #999999,
+    border-radius: 3px;
+    border: 1px solid #999999;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s;
+
+    &:hover {
+        transform: translateY(-.1rem);
+    }
+
 }
 
 .ProjectGridCard-heading {
     display: flex;
     justify-content: flex-start;
-    
     align-content: center;
     
     h1 {
@@ -31,8 +39,13 @@
         color: $lila-color;
     }
 
+    a {
+        text-decoration: none;
+        border-bottom: none;
+    }
+
     svg {
-        font-size: 1.4rem;
+        font-size: 1.3rem;
         color: grey;
         margin: 5px;
 
@@ -44,6 +57,12 @@
        
 }
 
+.ProjectGridCard-description {
+    p {
+        font-size: 0.8rem;
+    }
+}
+
 .ProjectGridCard-Links {
     display: flex;
     align-items: center;
@@ -51,3 +70,16 @@
     padding-right: 5%;
 }
 
+
+
+.ProjectGrid-image {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  
+}
+
+img {
+    height: auto;
+    width: 75%;
+}
