@@ -158,7 +158,7 @@ class Project extends Component {
   render() {
 
     return (
-      <PageTransition transitionTime={200}>
+      <PageTransition >
         <div className="c-content-box project">
           <Helmet title="Kien's Projects" />
           <HeadlineWithFocus>

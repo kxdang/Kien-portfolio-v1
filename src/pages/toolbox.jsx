@@ -6,7 +6,7 @@ import PageTransition from 'gatsby-plugin-page-transitions';
 import ToolBoxListContainer from "../containers/ToolBoxListContainer";
 
 export default () => (
-  <PageTransition transitionTime={200}>
+  <PageTransition>
     <div className="c-content-box">
       <Helmet title="Kien's Tools" />
 

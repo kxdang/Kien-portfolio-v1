@@ -7,7 +7,7 @@ import PageTransition from 'gatsby-plugin-page-transitions';
 
 export default (props) => {
   return (
-    <PageTransition transitionTime={200}>
+    <PageTransition>
 
 
       <div className="c-content-box">

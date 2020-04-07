@@ -7,7 +7,6 @@ import HeadlineWithFocus from "../components/HeadlineWithFocus";
 const Index = props => {
 
   return (
-
     <div className="c-content-box">
       <Avatar modifierClasses="c-avatar--as-logo" />
 
@@ -53,7 +52,6 @@ const Index = props => {
             document my journey and progress; feel free to take a peek!
       </p>
     </div >
-
   );
 };
 
