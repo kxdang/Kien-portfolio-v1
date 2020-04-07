@@ -2,14 +2,13 @@ import React, { Component } from 'react'
 import ProjectGridCard from './ProjectGridCard'
 
 
-
 export default class ProjectGridStyle extends Component {
     render() {
-        console.log(this.props)
-        console.log(this.props.projects[0].img)
+
         const { projects } = this.props
 
         return (
+
             <div className="ProjectGrid-Container">
                 <ProjectGridCard name={projects[0].projectName} built={projects[0].built} link={projects[0].projectLink} github={projects[0].github} img={require("../images/projects/palette.png")} />
                 <ProjectGridCard name={projects[1].projectName} built={projects[1].built} link={projects[1].projectLink} github={projects[1].github} img={require("../images/projects/deckofcards.png")} />
@@ -26,6 +25,8 @@ export default class ProjectGridStyle extends Component {
 
 
             </div>
+
+
         )
     }
 }

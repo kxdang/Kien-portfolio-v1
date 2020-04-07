@@ -7,6 +7,7 @@ module.exports = {
   //   siteUrl: `https://www.gatsbyjs.org`
   // },  
   plugins: [
+    'gatsby-plugin-page-transitions',
     {
       resolve: `gatsby-plugin-postcss-sass`,
       options: {

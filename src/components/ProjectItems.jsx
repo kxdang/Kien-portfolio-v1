@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { FaGithub, FaExternalLinkSquareAlt } from "react-icons/fa";
 
+
 export default class ProjectItems extends Component {
 
   render() {
@@ -23,7 +24,6 @@ export default class ProjectItems extends Component {
       </tr>
     ));
     return (
-
       <div className="project-div">
         <table>
           <tr>
@@ -37,6 +37,7 @@ export default class ProjectItems extends Component {
 
 
       </div>
+
     );
   }
 }

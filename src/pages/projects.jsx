@@ -4,6 +4,7 @@ import ProjectItems from "../components/ProjectItems";
 import ProjectGridStyle from "../components/ProjectGridStyle"
 import Slider from 'rc-slider/lib/Slider';
 import 'rc-slider/assets/index.css';
+import PageTransition from 'gatsby-plugin-page-transitions';
 
 
 
@@ -157,28 +158,22 @@ class Project extends Component {
   render() {
 
     return (
-
-      <div className="c-content-box project">
-        <Helmet title="Kien's Projects" />
-        <HeadlineWithFocus>
-          Projects
-         </HeadlineWithFocus>
-        <div className="slider-container">
-          <Slider defaultValue={this.state.toggle} dots={true} min={0} max={1} step={1} marks={{ 0: 'Featured', 1: 'List View' }} onAfterChange={this.changeView} />
-        </div>
-
+      <PageTransition transitionTime={200}>
         <div className="c-content-box project">
-          {this.state.viewDisplay === 'gridDisplay' ? <ProjectGridStyle projects={this.props.projects} /> : <ProjectItems projects={this.props.projects} />}
+          <Helmet title="Kien's Projects" />
+          <HeadlineWithFocus>
+            Projects
+         </HeadlineWithFocus>
+          <div className="slider-container">
+            <Slider defaultValue={this.state.toggle} dots={true} min={0} max={1} step={1} marks={{ 0: 'Featured', 1: 'List View' }} onAfterChange={this.changeView} />
+          </div>
+
+          <div className="c-content-box project">
+
+            {this.state.viewDisplay === 'gridDisplay' ? <ProjectGridStyle projects={this.props.projects} /> : <ProjectItems projects={this.props.projects} />}
+          </div>
         </div>
-
-
-
-      </div>
-
-
-
-
-
+      </PageTransition>
     )
   }
 
