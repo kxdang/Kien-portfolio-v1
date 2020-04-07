@@ -17,6 +17,7 @@
     "gatsby-plugin-nprogress": "^1.0.7",
     "gatsby-plugin-postcss-sass": "^1.0.12",
     "gatsby-plugin-react-helmet": "^1.0.8",
+    "rc-slider": "^9.2.4",
     "react-icons": "^3.9.0",
     "react-obfuscate": "^1.1.1",
     "react-redux": "^5.0.6",

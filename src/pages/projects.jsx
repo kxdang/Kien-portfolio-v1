@@ -2,6 +2,10 @@ import React, { Component } from "react";
 import HeadlineWithFocus from "../components/HeadlineWithFocus";
 import ProjectItems from "../components/ProjectItems";
 import ProjectGridStyle from "../components/ProjectGridStyle"
+import Slider from 'rc-slider/lib/Slider';
+import 'rc-slider/assets/index.css';
+
+
 
 import Helmet from "react-helmet";
 
@@ -146,7 +150,12 @@ class Project extends Component {
           Projects
         {/*<span>What's that?</span>*/}
         </HeadlineWithFocus>
-        <p>All projects are live, click on the project name to open them!</p>
+        <div className="slider-container">
+          <Slider dots={true} min={0} max={1} step={1} marks={{ 0: 'Featured Cards', 1: 'List' }} />
+        </div>
+
+
+
         <div style={{ minHeight: "500px" }}>
           {/* <ProjectItems projects={this.props.projects} /> */}
           <ProjectGridStyle projects={this.props.projects} />
