@@ -23,6 +23,7 @@
 
     &:hover {
         transform: translateY(-.2rem);
+        box-shadow: 0px 10px 7px -2px rgba(163,163,163,1);
     }
 
 }
@@ -31,29 +32,55 @@
     display: flex;
     justify-content: flex-start;
     align-content: center;
-    
-    h1 {
-        font-size: 1.6rem;
-        font-weight: 600;
-        padding-left: 1rem;
-        color: $lila-color;
+
+    &--name {  
+        display:flex;
+        justify-content: center;
+        align-items: center;
+
+
+        h1 {
+            
+            font-size: 1.6rem;
+            font-weight: 600;
+            padding-left: 1rem;
+            color: $lila-color;
+            a {
+                display:flex;
+                justify-content: center;
+                align-items: center;
+                svg {
+                    font-size: 1.1rem;
+                    margin: 0;
+                    margin-left: 5px;
+                }
+            }
+        }
+     
+
+       
+
+        &:hover {
+            a {
+                color: $lila-color;
+            }
+
+            svg {
+                margin-left: 4px;
+                margin-bottom: 4px;
+                color: $lila-color;
+            }
+            
+        }
     }
+
 
     a {
         text-decoration: none;
         border-bottom: none;
     }
 
-    svg {
-        font-size: 1.3rem;
-        color: grey;
-        margin: 5px;
 
-        &:hover {
-            cursor: pointer;
-            color: $lila-color;
-        }
-    }
        
 }
 
@@ -61,14 +88,27 @@
     height: 30%;
     p {
         font-size: 0.8rem;
+        color: $dark-gray-color;
     }
 }
 
-.ProjectGridCard-Links {
+.ProjectGridCard-Github {
     display: flex;
     align-items: center;
     margin-left: auto;
     padding-right: 5%;
+    svg {
+        font-size: 1.3rem;
+        color: grey;
+        margin: 5px;
+        margin-top: 6px;
+
+        &:hover {
+            cursor: pointer;
+            color: $lila-color;
+        }
+      
+    }
 }
 
 
