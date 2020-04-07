@@ -23,18 +23,18 @@ export default class ProjectItems extends Component {
       </tr>
     ));
     return (
-      <div>
-        <div className="project-div">
-          <table>
-            <tr>
-              <th>Year</th>
-              <th>Project Name</th>
-              <th>Built with</th>
-              <th>Code</th>
-            </tr>
-            {projectRows}
-          </table>
-        </div>
+
+      <div className="project-div">
+        <table>
+          <tr>
+            <th>Year</th>
+            <th>Project Name</th>
+            <th>Built with</th>
+            <th>Code</th>
+          </tr>
+          {projectRows}
+        </table>
+
 
       </div>
     );

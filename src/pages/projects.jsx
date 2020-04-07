@@ -138,31 +138,47 @@ class Project extends Component {
   constructor(props) {
     super(props);
     this.state = {
-
+      toggle: 0,
+      viewDisplay: 'gridDisplay' //0 for gridDisplay, 1 for listDisplay
     };
+    this.changeView = this.changeView.bind(this)
+  }
+
+  changeView() {
+    if (this.state.viewDisplay === 'gridDisplay') {
+      return this.setState({ toggle: 1, viewDisplay: 'listDisplay' })
+    }
+
+    if (this.state.viewDisplay === 'listDisplay') {
+      return this.setState({ toggle: 0, viewDisplay: 'gridDisplay' })
+    }
   }
 
   render() {
+
     return (
+
       <div className="c-content-box project">
         <Helmet title="Kien's Projects" />
         <HeadlineWithFocus>
           Projects
-        {/*<span>What's that?</span>*/}
-        </HeadlineWithFocus>
+         </HeadlineWithFocus>
         <div className="slider-container">
-          <Slider dots={true} min={0} max={1} step={1} marks={{ 0: 'Featured Cards', 1: 'List' }} />
+          <Slider defaultValue={this.state.toggle} dots={true} min={0} max={1} step={1} marks={{ 0: 'Featured', 1: 'List View' }} onAfterChange={this.changeView} />
         </div>
 
-
-
-        <div style={{ minHeight: "500px" }}>
-          {/* <ProjectItems projects={this.props.projects} /> */}
-          <ProjectGridStyle projects={this.props.projects} />
+        <div className="c-content-box project">
+          {this.state.viewDisplay === 'gridDisplay' ? <ProjectGridStyle projects={this.props.projects} /> : <ProjectItems projects={this.props.projects} />}
         </div>
+
 
 
       </div>
+
+
+
+
+
     )
   }
 
