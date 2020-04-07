@@ -22,7 +22,7 @@
     transition: transform 0.3s;
 
     &:hover {
-        transform: translateY(-.1rem);
+        transform: translateY(-.2rem);
     }
 
 }
@@ -58,6 +58,7 @@
 }
 
 .ProjectGridCard-description {
+    height: 30%;
     p {
         font-size: 0.8rem;
     }
@@ -72,11 +73,9 @@
 
 
 
-.ProjectGrid-image {
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  
+.ProjectGridCard-image {
+  display: block;
+  min-height: 170px;
 }
 
 img {
