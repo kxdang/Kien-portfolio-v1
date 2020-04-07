@@ -121,7 +121,7 @@ class Project extends Component {
       key: 2,
       year: "2019",
       projectName: "Personal Blog",
-      projectLink: "https://www.kiendang.me/029-automated-job-process/",
+      projectLink: "https://www.kiendang.me/",
       built: "React · Gatsby · Netlify · GraphQL",
       github: "https://github.com/kxdang/kiendang.me"
     },
