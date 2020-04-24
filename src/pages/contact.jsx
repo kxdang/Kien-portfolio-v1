@@ -34,7 +34,7 @@ export default (props) => {
         </ul>
         <div>
           <p className="__contact">
-            If you are reaching me via phone, please note that I am actively using{" "}
+            If you are reaching me via phone, please note that I am actively using the{" "}
             <a href="https://youtu.be/O4jOdVTkqS4?t=11" target="__blank">
               Google Call Screen
           </a>{" "}
