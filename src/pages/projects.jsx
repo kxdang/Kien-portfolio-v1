@@ -12,6 +12,15 @@ class Project extends Component {
   static defaultProps = {
     projects: [
       {
+        key: 15,
+        year: "2020",
+        projectName: "Not Codenames",
+        projectLink: "https://notcodenames.com",
+        built: "React · Firebase",
+        github: "https://github.com/kxdang/",
+        img: "../images/projects/notcodenames.png",
+      },
+      {
         key: 14,
         year: "2020",
         projectName: "Palette App",
@@ -183,8 +192,8 @@ class Project extends Component {
             {this.state.viewDisplay === "gridDisplay" ? (
               <ProjectGridStyle projects={this.props.projects} />
             ) : (
-              <ProjectItems projects={this.props.projects} />
-            )}
+                <ProjectItems projects={this.props.projects} />
+              )}
           </div>
         </div>
       </PageTransition>
