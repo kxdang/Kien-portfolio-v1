@@ -12,12 +12,21 @@ class Project extends Component {
   static defaultProps = {
     projects: [
       {
+        key: 16,
+        year: "2020",
+        projectName: "Pomodoro Timer",
+        projectLink: "https://kien-pomodoro-timer.netlify.app/",
+        built: "React",
+        github: "https://github.com/kxdang/react-pomodoro-timer",
+        img: "../images/projects/pomodoro.png",
+      },
+      {
         key: 15,
         year: "2020",
         projectName: "Not Codenames",
         projectLink: "https://notcodenames.com",
         built: "React · Firebase",
-        github: "https://github.com/kxdang/",
+        github: "https://github.com/kxdang/notcodenames",
         img: "../images/projects/notcodenames.png",
       },
       {
@@ -190,7 +199,7 @@ class Project extends Component {
 
           <div className="c-content-box project">
             {this.state.viewDisplay === "gridDisplay" ? (
-              <ProjectGridStyle projects={this.props.projects} />
+              <ProjectGridStyle />
             ) : (
                 <ProjectItems projects={this.props.projects} />
               )}
