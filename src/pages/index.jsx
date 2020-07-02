@@ -17,7 +17,7 @@ const Index = props => {
           c-headline-focus--super-big 
         `}
       >
-        I'm a front-end web developer.
+        I'm a Software Developer at Coveo.
       </HeadlineWithFocus>
       <div className="c-content-box__contact">
         <div className="c-content-box__contact--logo">

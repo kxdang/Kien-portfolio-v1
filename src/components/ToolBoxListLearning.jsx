@@ -1,7 +1,7 @@
 import React from 'react';
 import ToolBoxListItem from './ToolBoxListItem';
 
-class ToolBoxList extends React.Component {
+class ToolBoxListLearning extends React.Component {
   constructor(props) {
     super(props);
     this.onClickHandler = this.onClickHandler.bind(this);
@@ -13,7 +13,7 @@ class ToolBoxList extends React.Component {
 
   render() {
     return (
-      <ul className="c-toolbox-list">
+      <ul className="c-toolbox-list-learning">
         {
           this.props.items.map((item) => (
             <ToolBoxListItem
@@ -32,5 +32,5 @@ class ToolBoxList extends React.Component {
 };
 
 
-export default ToolBoxList;
+export default ToolBoxListLearning;
 

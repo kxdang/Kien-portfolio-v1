@@ -4,6 +4,7 @@ import Helmet from "react-helmet";
 import PageTransition from 'gatsby-plugin-page-transitions';
 
 import ToolBoxListContainer from "../containers/ToolBoxListContainer";
+import ToolBoxListContainerLearning from "../containers/ToolBoxListContainerLearning";
 
 export default () => (
   <PageTransition>
@@ -12,8 +13,14 @@ export default () => (
 
       <HeadlineWithFocus>
         <span>Here are the</span> tools I use
-    </HeadlineWithFocus>
+      </HeadlineWithFocus>
       <ToolBoxListContainer />
+
+      <HeadlineWithFocus>
+        <span>Tools I am currently</span> learning
+      </HeadlineWithFocus>
+
+      <ToolBoxListContainerLearning />
 
     </div>
   </PageTransition>
