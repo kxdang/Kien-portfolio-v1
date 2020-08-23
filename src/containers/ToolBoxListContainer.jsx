@@ -96,7 +96,7 @@ class ToolBoxListContainer extends React.Component {
           id: 15,
           label: "Visual Studio Code",
           description: `Source-code editor created by Microsoft.`,
-          comment: `I use many extensions to increase my productivity and workflow.`,
+          comment: `I found tips on how I improve productivity and workflow <a href="https://www.kiendang.me/099-vscode">here</a>`,
         },
       ],
       activatedItem: null,
